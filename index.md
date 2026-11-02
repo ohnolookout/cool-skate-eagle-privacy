@@ -1,25 +1,26 @@
 # Privacy Policy
 
-**Last Updated: March 11, 2026**
+**Last Updated: November 1, 2026**
 
 This Privacy Policy describes how Cool Skate Eagle ("the Game," "we," "us," or "our") collects, uses, and shares information when you use our mobile application.
 
 ## Information We Collect
 
 ### Information You Provide
-- **Account information**: If you choose to create an account, we collect your email address, password, and display name.
+- **Account information**: If you sign in through Google Play Games or Apple Game Center, we receive your player ID and display name from that service. You can also choose a display name in the Game. The Game does not ask you for an email address or password.
 
 ### Information Collected Automatically
 When you use the Game, the following information is collected automatically through our backend service provider, PlayFab (operated by Microsoft):
 
-- **Device identifiers**: A unique device identifier is used to create an anonymous account and recognize returning players. On Android, this is the Android ID. On iOS, this is a hardware device identifier.
-- **Gameplay data**: Level completion times and leaderboard scores.
+- **Device identifiers**: If you are not signed in through Google Play Games or Apple Game Center, a unique device identifier is used to create an anonymous account and recognize returning players. On Android, this is the Android ID. On iOS, this is a hardware device identifier.
+- **Gameplay data**: Level completion times, leaderboard scores, and level activity such as attempts, restarts, finishes, and time spent in each level.
+- **Replay data**: Recordings of your best run on each level, stored with your account for ghost replays.
 - **Cloud save data**: Your game progress is stored on our servers to enable cloud saves.
 - **Session data**: Session start/end times, focus/unfocus events, session duration, device model, and operating system.
 
 ### Information We Do NOT Collect
 - We do not serve advertisements or use ad tracking.
-- We do not use analytics services beyond what is described above.
+- We do not use third-party analytics services. We measure activity in the Game only through PlayFab, as described above.
 - We do not collect location data, contacts, photos, or other sensitive device data.
 
 ## How We Use Your Information
@@ -28,15 +29,16 @@ We use the information we collect to:
 
 - Operate the Game and provide its features (leaderboards, cloud saves, account recovery).
 - Identify and authenticate your account.
-- Maintain and improve the Game.
+- Maintain and improve the Game, including understanding which levels players find difficult.
 
 We do not sell your personal information.
 
 ## Third-Party Services
 
-We use the following third-party service:
+We use the following third-party services:
 
-- **PlayFab (Microsoft)**: Provides backend services including authentication, leaderboards, cloud saves, and session tracking. PlayFab processes data in accordance with [Microsoft's Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement). Data may be stored and processed in the United States or other countries where Microsoft operates.
+- **PlayFab (Microsoft)**: Provides backend services including authentication, leaderboards, cloud saves, replay storage, gameplay analytics, and session tracking. PlayFab processes data in accordance with [Microsoft's Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement). Data may be stored and processed in the United States or other countries where Microsoft operates.
+- **Google Play Games (Google) and Game Center (Apple)**: Provide optional sign-in on Android and iOS. Each service handles your data under its own privacy policy.
 
 ## Data Retention
 
@@ -51,12 +53,12 @@ The Game is not directed at children under the age of 13. We do not knowingly co
 ### For All Users
 You have the right to:
 - **Access** the personal information we hold about you.
-- **Delete** your account and associated data by contacting us.
+- **Delete** your account and associated data in the Game, under Settings > Delete Account, or by contacting us.
 - **Correct** inaccurate personal information.
 
 ### For European Economic Area (EEA) Residents (GDPR)
 If you are located in the EEA, you have additional rights under the General Data Protection Regulation:
-- **Legal basis for processing**: We process your data based on legitimate interest (to operate the Game) and your consent (for optional account creation with email).
+- **Legal basis for processing**: We process your data based on legitimate interest (to operate the Game) and your consent (for optional sign-in through Google Play Games or Apple Game Center).
 - **Right to portability**: You may request a copy of your data in a structured, machine-readable format.
 - **Right to restrict processing**: You may request that we limit how we use your data.
 - **Right to object**: You may object to our processing of your data.
@@ -73,7 +75,7 @@ If you are a California resident, the California Consumer Privacy Act and Califo
 - **Right to opt-out of sale or sharing**: We do not sell or share your personal information for cross-context behavioral advertising.
 - **Right to non-discrimination**: We will not discriminate against you for exercising any of these rights.
 
-**Categories of personal information collected**: Identifiers (device ID, email, display name), internet or electronic network activity (session data), and other information related to your interaction with the Game (gameplay data, cloud saves).
+**Categories of personal information collected**: Identifiers (device ID, platform player ID, display name), internet or electronic network activity (session data), and other information related to your interaction with the Game (gameplay data, replay data, cloud saves).
 
 We do not sell personal information. We do not use or disclose sensitive personal information for purposes other than those permitted by the CCPA/CPRA.
 
